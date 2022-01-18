@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hero-monolith
+spec:
+  type: ClusterIP
+  selector:
+    app: hero-monolith
+  ports:
+  - port: 8080
+    targetPort: http
