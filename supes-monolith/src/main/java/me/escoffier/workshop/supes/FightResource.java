@@ -8,11 +8,12 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.Random;
 
+import org.eclipse.microprofile.rest.client.inject.RestClient;
+import javax.inject.Inject;
+
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)
 public class FightResource {
-
-    private static final Logger LOGGER = Logger.getLogger(FightResource.class);
 /*
     @GET
     @Path("/heroes/random")
@@ -22,11 +23,25 @@ public class FightResource {
         return hero;
     }
 */
+
+    @Inject @RestClient HeroClient heroClient;
+
     @GET
     @Path("/heroes/random")
-    public String getRandomHero() {
-        return "Heroes!";
+    public Hero getRandomHero() {
+        return heroClient.getHero();
     }
+
+    @Inject @RestClient SecondServiceClient client;
+
+    @GET
+    @Path("/quote")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String printWithQuote() {
+        return "hello from " + System.getenv("HOSTNAME") + ", " + client.getQuote();
+    }
+
+    // TODO : addvillains
 
     /*@GET
     @Path("/villains/random")
