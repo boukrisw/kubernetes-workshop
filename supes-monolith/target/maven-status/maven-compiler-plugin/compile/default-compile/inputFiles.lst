@@ -1,4 +1,6 @@
-/Users/walidboukris/Desktop/M2_INFO/S2/CI-CD/kubernetes-workshop/rendu/supes-monolith/src/main/java/me/escoffier/workshop/supes/Hero.java
-/Users/walidboukris/Desktop/M2_INFO/S2/CI-CD/kubernetes-workshop/rendu/supes-monolith/src/main/java/me/escoffier/workshop/supes/FightResource.java
-/Users/walidboukris/Desktop/M2_INFO/S2/CI-CD/kubernetes-workshop/rendu/supes-monolith/src/main/java/me/escoffier/workshop/supes/Fight.java
-/Users/walidboukris/Desktop/M2_INFO/S2/CI-CD/kubernetes-workshop/rendu/supes-monolith/src/main/java/me/escoffier/workshop/supes/Villain.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/Hero.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/FightResource.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/SecondServiceClient.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/Fight.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/HeroClient.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/Villain.java
