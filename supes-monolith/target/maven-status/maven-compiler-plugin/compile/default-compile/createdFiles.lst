@@ -1,7 +1,7 @@
 me/escoffier/workshop/supes/Hero.class
 me/escoffier/workshop/supes/Fight.class
+me/escoffier/workshop/supes/VillainClient.class
 me/escoffier/workshop/supes/FightResource.class
 META-INF/panache-archive.marker
-me/escoffier/workshop/supes/SecondServiceClient.class
 me/escoffier/workshop/supes/Villain.class
 me/escoffier/workshop/supes/HeroClient.class

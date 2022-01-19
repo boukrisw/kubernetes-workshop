@@ -3,4 +3,5 @@
 /Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/SecondServiceClient.java
 /Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/Fight.java
 /Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/HeroClient.java
+/Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/VillainClient.java
 /Users/walidboukris/Desktop/kubernetes-workshop/supes-monolith/src/main/java/me/escoffier/workshop/supes/Villain.java
