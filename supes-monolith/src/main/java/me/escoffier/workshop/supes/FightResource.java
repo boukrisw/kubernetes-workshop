@@ -14,15 +14,6 @@ import javax.inject.Inject;
 @Path("/")
 @Produces(MediaType.APPLICATION_JSON)
 public class FightResource {
-/*
-    @GET
-    @Path("/heroes/random")
-    public Hero getRandomHero() {
-        Hero hero = Hero.findRandom();
-        LOGGER.debug("Found random hero " + hero);
-        return hero;
-    }
-*/
 
     @Inject @RestClient HeroClient heroClient;
 
@@ -32,23 +23,12 @@ public class FightResource {
         return heroClient.getHero();
     }
 
-    @Inject @RestClient SecondServiceClient client;
+    @Inject @RestClient VillainClient villainClient;
 
     @GET
-    @Path("/quote")
-    @Produces(MediaType.TEXT_PLAIN)
-    public String printWithQuote() {
-        return "hello from " + System.getenv("HOSTNAME") + ", " + client.getQuote();
-    }
-
-    // TODO : addvillains
-
-    /*@GET
     @Path("/villains/random")
     public Villain getRandomVillain() {
-        Villain villain = Villain.findRandom();
-        LOGGER.debug("Found random villain " + villain);
-        return villain;
+        return villainClient.getVillain();
     }
 
     @GET
@@ -72,5 +52,5 @@ public class FightResource {
             return new Fight(hero, villain, villain.name);
         }
     }
-*/
+
 }

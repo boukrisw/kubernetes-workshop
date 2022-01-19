@@ -4,7 +4,7 @@ package me.escoffier.workshop.supes;
 import java.util.Random;
 
 public class Hero {
-    int id;
+    public int id;
     public String name;
     public String otherName;
     public int level;

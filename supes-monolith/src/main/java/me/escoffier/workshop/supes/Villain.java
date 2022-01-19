@@ -4,6 +4,7 @@ import java.util.Random;
 
 public class Villain {
 
+    public int id;
     public String name;
     public String otherName;
     public int level;
@@ -14,7 +15,7 @@ public class Villain {
     @Override
     public String toString() {
         return "Villain{" +
-                "id=" + "id" +
+                "id=" + id +
                 ", name='" + name + '\'' +
                 ", otherName='" + otherName + '\'' +
                 ", level=" + level +
