@@ -65,6 +65,7 @@ io.quarkus:quarkus-resteasy-reactive-jackson::jar:2.6.1.Final
 io.quarkus:quarkus-resteasy-reactive::jar:2.6.1.Final
 io.quarkus:quarkus-security-runtime-spi::jar:2.6.1.Final
 io.quarkus:quarkus-smallrye-context-propagation::jar:2.6.1.Final
+io.quarkus:quarkus-smallrye-health::jar:2.6.1.Final
 io.quarkus:quarkus-smallrye-stork::jar:2.6.1.Final
 io.quarkus:quarkus-vertx-http-dev-console-runtime-spi::jar:2.6.1.Final
 io.quarkus:quarkus-vertx-http::jar:2.6.1.Final
@@ -96,6 +97,9 @@ io.smallrye:smallrye-context-propagation-jta::jar:1.2.2
 io.smallrye:smallrye-context-propagation-storage::jar:1.2.2
 io.smallrye:smallrye-context-propagation::jar:1.2.2
 io.smallrye:smallrye-fault-tolerance-vertx::jar:5.2.1
+io.smallrye:smallrye-health-api::jar:3.1.2
+io.smallrye:smallrye-health-provided-checks::jar:3.1.2
+io.smallrye:smallrye-health::jar:3.1.2
 io.vertx:vertx-auth-common::jar:4.2.2
 io.vertx:vertx-bridge-common::jar:4.2.2
 io.vertx:vertx-codegen::jar:4.2.2
@@ -113,6 +117,7 @@ jakarta.transaction:jakarta.transaction-api::jar:1.3.3
 net.bytebuddy:byte-buddy::jar:1.11.20
 org.eclipse.microprofile.config:microprofile-config-api::jar:2.0
 org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api::jar:1.2
+org.eclipse.microprofile.health:microprofile-health-api::jar:3.1
 org.eclipse.microprofile.rest.client:microprofile-rest-client-api::jar:2.0
 org.glassfish.jaxb:jaxb-runtime::jar:2.3.3-b02
 org.glassfish.jaxb:txw2::jar:2.3.3-b02

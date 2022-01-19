@@ -1,5 +1,6 @@
 me/escoffier/workshop/supes/Hero.class
 me/escoffier/workshop/supes/Fight.class
+me/escoffier/workshop/MyHealthCheck.class
 me/escoffier/workshop/supes/VillainClient.class
 me/escoffier/workshop/supes/FightResource.class
 META-INF/panache-archive.marker
