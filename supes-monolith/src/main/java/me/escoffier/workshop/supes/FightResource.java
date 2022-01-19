@@ -23,12 +23,26 @@ public class FightResource {
         return heroClient.getHero();
     }
 
+    @GET
+    @Path("/crash/hero")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String crashHeroService() {
+        return heroClient.crash();
+    }
+
     @Inject @RestClient VillainClient villainClient;
 
     @GET
     @Path("/villains/random")
     public Villain getRandomVillain() {
         return villainClient.getVillain();
+    }
+
+    @GET
+    @Path("/crash/villain")
+    @Produces(MediaType.TEXT_PLAIN)
+    public String crashVillainService() {
+        return villainClient.crash();
     }
 
     @GET

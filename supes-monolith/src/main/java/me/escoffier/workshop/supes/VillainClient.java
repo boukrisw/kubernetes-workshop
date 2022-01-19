@@ -12,4 +12,8 @@ public interface VillainClient {
     @Path("/villains/random")
     @GET
     Villain getVillain();
+
+    @Path("/crash")
+    @GET
+    String crash();
 }

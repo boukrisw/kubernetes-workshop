@@ -12,4 +12,8 @@ public interface HeroClient {
     @Path("/heroes/random")
     @GET
     Hero getHero();
+
+    @Path("/crash")
+    @GET
+    String crash();
 }
