@@ -49,6 +49,18 @@ To get the address of the service `supes-monolith`, you can use the below comman
 minikube service supes-monolith --url
 ```
 
+### Check available services
+
+Check created deployments:
+```
+kubectl get deployment                                           
+```
+
+Check running pods:
+```
+kubectl get pods
+```
+
 ## More information
 For more information about this workshop check this useful repo of Clement Escoffier:
 https://github.com/cescoffier/kubernetes-workshop
